@@ -29,6 +29,7 @@ from qolsys.sensors import QolsysSensorTemperature
 from qolsys.sensors import QolsysSensorTilt
 from qolsys.sensors import QolsysSensorTranslator
 from qolsys.sensors import QolsysSensorWater
+from qolsys.sensors import QolsysSensorTamperSensor
 
 
 class TestIntegrationQolsysEvents(TestQolsysGatewayBase):
