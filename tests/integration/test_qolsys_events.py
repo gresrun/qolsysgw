@@ -6,7 +6,7 @@ from unittest import mock
 import testenv  # noqa: F401
 from testbase import TestQolsysGatewayBase
 
-from tests.mock_modules.testutils.mock_types import ISODATE
+from testutils.mock_types import ISODATE
 
 from qolsys.sensors import QolsysSensorAuxiliaryPendant
 from qolsys.sensors import QolsysSensorBluetooth
